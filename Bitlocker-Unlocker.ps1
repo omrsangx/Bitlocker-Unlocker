@@ -1,3 +1,4 @@
+<#
 .SYNOPSIS
 
 This is a script to brute force attack the last 6 digits of a Bitlocker recovery key
@@ -19,6 +20,8 @@ Bitlocker-Unlocker -RecoveryKey 624052-103972-656985-334444-632145-675675-681142
 #The value entered for the recovery key has to be in the following format: 624052-103972-656985-334444-632145-675675-681142-
 
 Author: Omar Rosa
+
+#>
 
 function Bitlocker-Unlocker {
     param([string]$RecoveryKey)
