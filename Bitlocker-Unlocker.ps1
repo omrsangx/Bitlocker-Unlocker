@@ -4,7 +4,6 @@
 This is a script to brute force attack the last 6 digits of a Bitlocker recovery key
 
 .DESCRIPTION
-
 At the moment, this only works for the last set of digits of the BitLocker recovery key. 
 I will be working in a slightly different version of a BitLocker unlocker which can be run in any version of powershell using a brute force attack for the password only. 
 Trying to recovery all values of a recovery key is out of the scope of this script. The script can be created, 
@@ -15,6 +14,7 @@ https://github.com/e-ago/bitcracker
 Bitlocker-Unlocker -RecoveryKey 624052-103972-656985-334444-632145-675675-681142-
 
 .EXAMPLE
+Bitlocker-Unlocker -RecoveryKey 624052-103972-656985-334444-632145-675675-681142-
 
 .NOTES
 #The value entered for the recovery key has to be in the following format: 624052-103972-656985-334444-632145-675675-681142-
