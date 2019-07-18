@@ -1,6 +1,5 @@
 <#
 .SYNOPSIS
-
 This is a script to brute force attack the last 6 digits of a Bitlocker recovery key
 
 .DESCRIPTION
